@@ -1,0 +1,364 @@
+body
+{
+    margin: 0%;
+    background-image: linear-gradient(to right, #f05b9c 0%, #5f76e7 80%);
+}
+
+.header
+{
+    background-image: linear-gradient(to right, #89f1d2 0%, #f588c4 80%);
+    height: 75px;
+    display: flex;
+}
+
+.logo
+{
+    height: 60px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.logo:hover
+{
+    background: linear-gradient(to right, #2273ec, #ec306f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navs
+{
+    margin-left: 150px;
+    margin-top: 24px;
+    padding-left: 51px
+}
+
+.nav
+{
+    display: inline;
+    margin-left: 16px;
+}
+
+.navname
+{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding-left: 8px;
+    font-weight: 600;
+}
+
+.active
+{
+    color: rgb(0, 0, 0);
+}
+
+.sd
+{
+    background-image: linear-gradient(to right, #f2679a 0%, #e49ae2 80%);
+    height: 75px;
+    color: black;
+    font-family: math;
+    height: 27px;
+    width: 95px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 257px;
+    border-radius: 11px;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-left: 286px;
+    /* border-style: double; */
+    border-width: 3px;
+}
+
+.navname:hover
+{
+            background: linear-gradient(to right, #2273ec, #ec306f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+
+.sd:hover
+{
+    background-image: linear-gradient(to right, #eed7df 20%, #c014ba 80%);
+
+}
+
+.ban
+{
+    background-image: url(img4.jpeg);
+    width: 1487px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 14px;
+    margin-top: 20px;
+    padding-bottom: 92px;
+    filter: grayscale(100);
+    cursor: pointer;
+}
+.ban:hover
+{
+    filter: grayscale(0);
+    
+}
+.ser
+{
+    background-image: linear-gradient(to right, #f971a1 20%, #f13deb 80%);
+    height: 288px;
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box
+{
+    height: 260px;
+    width: 100%;
+    margin-top: 69px;
+    font-family: "Poppins", sans-serif;
+}
+
+.bx1
+{
+    background-image: linear-gradient(to right, #f1adc5 20%, #e996e6 80%);
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.bx2
+{
+    background-image: linear-gradient(to right, #84b3f5 20%, #8bf0e6 80%);
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.bx3{
+    
+    background-image: linear-gradient(to right, #eaec7f 20%, #eea371 80%);
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 170px;
+    cursor: pointer;
+}
+
+.insta
+{
+    color: white;
+    background: linear-gradient(to bottom, purple, red, yellow);
+    padding: 4px;
+    height: 33px;
+    width: 33px;
+    border-radius: 12px;
+}
+
+.bx4{
+    background-image: linear-gradient(to right, #f166cc 20%, #eb965c 80%);
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 170px;
+    cursor: pointer;
+
+}
+
+.bx5{
+    background-image: linear-gradient(to right, #6580f0 20%, #b75ceb 80%);
+    margin-left: 16px;
+    margin-right: 16px;
+    height: 170px;
+    cursor: pointer;
+
+}
+
+.you{
+    color: red;
+    background-color: white;
+    padding: 4px;
+    border-radius: 19px;
+    height: 33px;
+    width: 40px;
+}
+
+.face{
+    color: white;
+    background: blue;
+    padding: 4px;
+    border-radius: 22px;
+    height: 33px;
+    width: 33px;
+}
+
+.wats
+{
+    color: white;
+    background: green;
+    padding: 4px;
+    border-radius: 22px;
+    height: 33px;
+    width: 33px;
+}
+
+.link
+{
+    color: white;
+    background: blue;
+    padding: 4px;
+    height: 33px;
+    width: 33px;
+    border-radius: 9px
+}
+
+.bx1:hover
+{
+    background-image: linear-gradient(to right, #f54482 20%, #e630df 80%);
+
+}
+
+.bx2:hover
+{
+    background-image: linear-gradient(to right, #7dd833 20%, #55eaa5 80%);
+
+}
+
+.bx3:hover
+{
+    background-image: linear-gradient(to right, #4f5aee 20%, #5ec1e6 80%);
+
+}
+
+.bx4:hover
+{
+    background-image: linear-gradient(to right, #4f5aee 20%, #5ec1e6 80%);
+
+}
+
+.bx5:hover
+{
+    background-image: linear-gradient(to right, #ea2e2e 20%, #f6e3f5 80%);
+
+}
+
+.para{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact
+{
+    background-image: linear-gradient(to right, #74c1f1 20%, #6260e6 80%);
+    height: 350px;
+    display: flex;
+    padding: 40px;
+
+}
+
+.left
+{
+    padding-left: 53px;
+}
+
+.right
+{
+    margin-left: -60px;
+}
+
+.ctbx
+{
+    display: inline;
+    flex: 1;
+}
+
+.cont
+{
+    margin-top: 0px;
+    margin-left: 197px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.formfield
+{
+    margin-top: 25px;
+    margin-left: 46px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+}
+
+
+.lb
+{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.lb:hover
+{
+    background: linear-gradient(to right, #ec5b22, #ec3059);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ad{
+    margin-left: 40px;
+}
+
+.mg{
+    margin-left: -18px;
+
+}
+
+.ph{
+    margin-left: -3px;
+}
+
+.ff{
+    margin-top: 50px;
+    margin-left: 230px;
+    background-image: linear-gradient(to right, #f2679a 0%, #e49ae2 80%);
+    cursor: pointer;
+    border-radius: 10px;
+    width: 110px;
+}
+
+.ff:hover{
+    background-image: linear-gradient(to right, #eed7df 20%, #c014ba 80%);
+
+}
+
+.cls{
+    margin-left: 130px;
+}
+
+.cyrht
+{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+
+.copy
+{
+    font-weight: 600;
+    font-size: 17px;
+    background: white;
+    width: 26px;
+    height: 19px;
+    border-radius: 11px;
+    /* margin-bottom: 3px;
+    padding-bottom: 40px; */
+}
+
+.suma
+{
+    color: white;
+    text-decoration: none;
+}
